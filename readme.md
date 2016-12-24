@@ -1,6 +1,26 @@
 # Laravel 5 Boiler Plate
 
-라라벨 5 보일러 플레이트 프로젝트입니다.
+라라벨 5 보일러 플레이트 프로젝트입니다. 
+
+**PR 환영**합니다.
+
+
+
+## 설치
+
+1. 프로젝트 복제
+   git clone git@github.com:ModernPUG/laravel5-boilerplate.git
+2. 의존성 설치
+   `composer install`
+3. migrate
+   `php artisan migrate`
+4. 기본 데이타 입력
+   `php artisan db:seed`
+5. 로그인
+
+
+
+기본 관리자 id는 admin@example.com 이고 암호는 *secret* 입니다.
 
 
 
