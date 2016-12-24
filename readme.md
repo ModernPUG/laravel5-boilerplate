@@ -9,13 +9,21 @@
 ## 설치
 
 1. 프로젝트 복제
+    ```sh
    git clone git@github.com:ModernPUG/laravel5-boilerplate.git
+   ```
 2. 의존성 설치
-   `composer install`
+    ```sh
+   composer install
+   ```
 3. migrate
-   `php artisan migrate`
+    ```sh
+   php artisan migrate
+   ```
 4. 기본 데이타 입력
-   `php artisan db:seed`
+    ```sh
+   php artisan db:seed
+   ```
 5. 로그인
 
 
