@@ -10,33 +10,35 @@
 
 
 
-## 설치
+## 구성
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+프로젝트 구성입니다.
 
-### ide-helper
+### debugging 패키지
 
-[https://github.com/barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) 가 포함되어 있습니다.
+디버깅용 패키지는 production 일때는 동작하지 않게 설정되었습니다.
 
+#### ide-helper
 
+[https://github.com/barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) 가 포함되어 있으며 IDE 용 헬퍼 파일은 아래 명령어로 수동으로 생성할 수 있습니다.
 
-```
+```sh
 php artisan ide-helper:generate
+php artisan ide-helper:meta
 ```
 
-### qqq
+위 명령어는 *composer update* 실행시에도 자동으로 실행됩니다.
 
-Please join us in our Slack channel to get faster responses to your questions. Get your invite here: [https://laravel-5-boilerplate.herokuapp.com](https://laravel-5-boilerplate.herokuapp.com/)
+#### debugbar
+
+[laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) 가 설치되어 있습니다.
 
 
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
 
 ## 참고 자료
 
 - [https://github.com/rappasoft/laravel-5-boilerplate]([https://github.com/rappasoft/laravel-5-boilerplate)- 라라벨 5 보일러 플레이트 프로젝트
+- [awmsome-laravel](https://github.com/chiraggude/awesome-laravel) 
 
 ## License
 
