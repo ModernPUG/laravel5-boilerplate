@@ -181,6 +181,8 @@ return [
 
         // custom provider
         Maatwebsite\Excel\ExcelServiceProvider::class,
+
+        Vinkla\Alert\AlertServiceProvider::class,
     ],
 
     /*
@@ -233,6 +235,7 @@ return [
         'Socialite'   => Laravel\Socialite\Facades\Socialite::class,
 
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
+        'Alert' => Vinkla\Alert\Facades\Alert::class
     ],
 
 ];

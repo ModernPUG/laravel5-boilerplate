@@ -66,6 +66,10 @@
 #### [Laravel-Excel](https://github.com/Maatwebsite/Laravel-Excel)
 * [Laravel 에서 손쉽게 Excel 파일 다루기](https://www.lesstif.com/pages/viewpage.action?pageId=29590459) 참고
 
+#### [Laravel Alert](https://github.com/vinkla/laravel-alert)
+
+
+
 ### debugging 패키지
 
 디버깅용 패키지는 production 일때는 동작하지 않게 설정되었습니다.
@@ -89,7 +93,7 @@ php artisan ide-helper:meta
 
 ## 참고 자료
 
-- [https://github.com/rappasoft/laravel-5-boilerplate]([https://github.com/rappasoft/laravel-5-boilerplate)- 라라벨 5 보일러 플레이트 프로젝트
+- [https://github.com/rappasoft/laravel-5-boilerplate](https://github.com/rappasoft/laravel-5-boilerplate)- 라라벨 5 보일러 플레이트 프로젝트
 - [awesome-laravel](https://github.com/chiraggude/awesome-laravel)
 
 ## License
