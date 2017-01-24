@@ -24,7 +24,16 @@
     ```sh
    php artisan db:seed
    ```
-5. 로그인
+5. node.js가 설치되어 있다면?
+    ```sh
+    npm install
+    ```
+   node.js가 설치되지 않았다면?
+   ```sh
+   brew install nodejs
+   npm install
+   ```
+6. 로그인
 
 
 
