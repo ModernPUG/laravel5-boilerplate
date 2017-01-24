@@ -9,37 +9,47 @@
 ## 설치
 
 1. 프로젝트 복제
-    ```sh
+
+   ```sh
    git clone git@github.com:ModernPUG/laravel5-boilerplate.git
    ```
+
 2. 의존성 설치
-    ```sh
+   ​
+   ```sh
    composer install
    ```
-3. migrate
-    ```sh
+
+3. migrate   ​
+
+   ```sh
    php artisan migrate
    ```
+
 4. 기본 데이타 입력
-    ```sh
+   ​
+   ```sh
    php artisan db:seed
    ```
-5. node.js가 설치되어 있다면?
+
+5. npm 패키지 설치
+
+    node.js가 설치되어 있다면?
+
     ```sh
     npm install
     ```
+
    node.js가 설치되지 않았다면?
+
    ```sh
    brew install nodejs
    npm install
    ```
+
 6. 로그인
 
-
-
-기본 관리자 id는 admin@example.com 이고 암호는 *secret* 입니다.
-
-
+기본 관리자 id는 *admin@example.com* 이고 암호는 *secret* 입니다.
 
 ## Slack 채널
 
@@ -50,6 +60,11 @@
 ## 구성
 
 프로젝트 구성입니다.
+
+### 패키지
+
+#### [Laravel-Excel](https://github.com/Maatwebsite/Laravel-Excel)
+* [Laravel 에서 손쉽게 Excel 파일 다루기](https://www.lesstif.com/pages/viewpage.action?pageId=29590459) 참고
 
 ### debugging 패키지
 
@@ -75,7 +90,7 @@ php artisan ide-helper:meta
 ## 참고 자료
 
 - [https://github.com/rappasoft/laravel-5-boilerplate]([https://github.com/rappasoft/laravel-5-boilerplate)- 라라벨 5 보일러 플레이트 프로젝트
-- [awmsome-laravel](https://github.com/chiraggude/awesome-laravel) 
+- [awesome-laravel](https://github.com/chiraggude/awesome-laravel)
 
 ## License
 
