@@ -63,12 +63,7 @@ return [
     | ahead and set this to a sensible default for you out of the box.
     |
     */
-
-<<<<<<< .merge_file_e8eRGr
-    'timezone' => 'Asia/Seoul',
-=======
     'timezone' => env('APP_TIMEZONE', 'Asia/Seoul'),
->>>>>>> .merge_file_KcPBzj
 
     /*
     |--------------------------------------------------------------------------
@@ -80,12 +75,7 @@ return [
     | to any of the locales which will be supported by the application.
     |
     */
-
-<<<<<<< .merge_file_e8eRGr
-    'locale' => 'ko',
-=======
     'locale' => env('APP_LOCALE', 'ko'),
->>>>>>> .merge_file_KcPBzj
 
     /*
     |--------------------------------------------------------------------------
@@ -187,14 +177,10 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-<<<<<<< .merge_file_e8eRGr
-        Maatwebsite\Excel\ExcelServiceProvider::class,
-=======
         // custom provider
         Maatwebsite\Excel\ExcelServiceProvider::class,
 
         Vinkla\Alert\AlertServiceProvider::class,
->>>>>>> .merge_file_KcPBzj
     ],
 
     /*
@@ -245,13 +231,9 @@ return [
 
         /* 3rd party alias */
         'Socialite'   => Laravel\Socialite\Facades\Socialite::class,
-<<<<<<< .merge_file_e8eRGr
-        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
-=======
 
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
         'Alert' => Vinkla\Alert\Facades\Alert::class
->>>>>>> .merge_file_KcPBzj
     ],
 
 ];
