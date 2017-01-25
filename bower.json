@@ -1,0 +1,22 @@
+{
+  "name": "laravel5-boilerplate",
+  "description": "laravel5 boilerplate project",
+  "main": "",
+  "authors": [
+    "KwangSeob Jeong <lesstif@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ModernPUG/laravel5-boilerplate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/assets/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}

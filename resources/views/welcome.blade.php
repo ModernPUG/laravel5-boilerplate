@@ -75,7 +75,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    @include('alert::alert')
                 </div>
 
                 <div class="links">
@@ -87,5 +87,6 @@
                 </div>
             </div>
         </div>
+
     </body>
 </html>

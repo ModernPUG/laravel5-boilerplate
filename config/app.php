@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'Laravel',
+    'name' => 'Laravel 5 BoilerPlate',
 
     /*
     |--------------------------------------------------------------------------
@@ -64,7 +64,11 @@ return [
     |
     */
 
+<<<<<<< .merge_file_e8eRGr
     'timezone' => 'Asia/Seoul',
+=======
+    'timezone' => env('APP_TIMEZONE', 'Asia/Seoul'),
+>>>>>>> .merge_file_KcPBzj
 
     /*
     |--------------------------------------------------------------------------
@@ -77,7 +81,11 @@ return [
     |
     */
 
+<<<<<<< .merge_file_e8eRGr
     'locale' => 'ko',
+=======
+    'locale' => env('APP_LOCALE', 'ko'),
+>>>>>>> .merge_file_KcPBzj
 
     /*
     |--------------------------------------------------------------------------
@@ -90,7 +98,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
 
     /*
     |--------------------------------------------------------------------------
@@ -179,7 +187,14 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+<<<<<<< .merge_file_e8eRGr
         Maatwebsite\Excel\ExcelServiceProvider::class,
+=======
+        // custom provider
+        Maatwebsite\Excel\ExcelServiceProvider::class,
+
+        Vinkla\Alert\AlertServiceProvider::class,
+>>>>>>> .merge_file_KcPBzj
     ],
 
     /*
@@ -228,9 +243,15 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
-        /* 3rd party aliaes */
+        /* 3rd party alias */
         'Socialite'   => Laravel\Socialite\Facades\Socialite::class,
+<<<<<<< .merge_file_e8eRGr
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
+=======
+
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
+        'Alert' => Vinkla\Alert\Facades\Alert::class
+>>>>>>> .merge_file_KcPBzj
     ],
 
 ];
