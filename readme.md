@@ -4,8 +4,6 @@
 
 **PR 환영**합니다.
 
-
-
 ## 설치
 
 1. 프로젝트 복제
@@ -53,7 +51,7 @@
 
 ## Slack 채널
 
-예제는 [https://laravel5-boilerplate.modernpug.org](https://laravel5-boilerplate.modernpug.org) 에서 확인하실 수 있고 관련 슬랙 채널은 [ModernPUG 슬랙](https://modernpug.slack.com/archives/laravel-boiler-plate) 입니다.
+예제는 [https://laravel5-boilerplate.modernpug.org](https://laravel5-boilerplate.modernpug.org) 에서 확인하실 수 있고 관련 슬랙 채널은 [ModernPUG 슬랙 #laravel-boiler-plate](https://modernpug.slack.com/archives/laravel-boiler-plate) 입니다. ModernPUG 슬랙에 가입되어 있지 않으신 분들은 [이곳](http://slack-invite.modernpug.org/)을 통해 가입하세요.
 
 
 
